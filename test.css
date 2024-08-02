@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: black;
+    box-sizing: border-box;
+}
+
+.sidebar .text{
+    color: white;
+    font-size:25px;
+    line-height: 65px;
+    text-align: center;
+}

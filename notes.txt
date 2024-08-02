@@ -1,0 +1,12 @@
+padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* Flex property to ensure equal size */
+  max-width: 200px;
