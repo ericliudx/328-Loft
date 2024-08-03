@@ -10,7 +10,7 @@
 
 .body{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .headerbar{
@@ -713,19 +713,23 @@
     align-items: center;
     background:black;
     flex:1;
+
+    height: auto;
 }
 
 .img_slider_container{
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
+
+
 }
 
 .slider_wrapper{
     background-color: red;
 }
+
 
 
 
