@@ -1,10 +1,9 @@
-import './home_page.css';
-import './app.js';
+import "./home_page.css";
+import "./OLD.js";
 
 function HomePage() {
   return (
     <div className="home-page-container">
-        hello world
         <div class="header">
             <div class="headerbar">
                 <div class="account">
