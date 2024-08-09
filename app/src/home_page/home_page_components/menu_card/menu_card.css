@@ -1,0 +1,45 @@
+.menu-card {
+    height: 100%;
+    width: 20vw;
+    text-align: center;
+    background-color: black;
+    padding: 1% 2%;
+}
+
+.menu-card-picture {
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu-card-title {
+    margin-top: 7%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.menu-card-text {
+    margin-top: 7%;
+    font-size: 1rem;
+}
+
+.menu-card-button {
+    padding: 5px 10px;
+    margin-top: 10%;
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 7px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #B78FAB;
+    outline: none;
+    background-color: #D7C0D0;
+    
+}
+
+.menu-card-button:hover {
+    background-color: #B78FAB;
+    border-color: #A77698;
+}
