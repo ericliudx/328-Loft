@@ -5,37 +5,37 @@ function HomePage() {
   return (
     <div className="home-page-container">
         hello world
-        <div class="header">
-            <div class="headerbar">
-                <div class="account">
+        <div className="header">
+            <div className="headerbar">
+                <div className="account">
                     <ul>
                         <a href="#">
                             <li>
-                                <i class="fa-solid fa-house-chimney"></i>
+                                <i className="fa-solid fa-house-chimney"></i>
                             </li>
                         </a>
                         <a href="#">
                             <li>
-                                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                                <i className="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
                             </li>
                         </a>
-                        <div class="search" id="searchinput1">
+                        <div className="search" id="searchinput1">
                             <input type="search" />
-                            <i class="fa-solid fa-magnifying-glass searchbaricon1"></i>
+                            <i className="fa-solid fa-magnifying-glass searchbaricon1"></i>
                         </div>
                         <a href="#">
                             <li>
-                                <i class="fa-solid fa-user" id="user-mb"></i>
+                                <i className="fa-solid fa-user" id="user-mb"></i>
                             </li>
                         </a>
                     </ul>
                 </div>
-                <div class="nav">
+                <div className="nav">
                     <ul>
                         <li><a href="">Home</a></li>
                         <li>
-                            <a href="#" class="menus_btn">Online Menus <span class="fas fa-caret-down"></span></a>
-                            <ul class="dropdown_menu">
+                            <a href="#" className="menus_btn">Online Menus <span className="fas fa-caret-down"></span></a>
+                            <ul className="dropdown_menu">
                                 <li>
                                     <a href="chinese_menu.html">Chinese Menu</a>
                                 </li>
@@ -52,24 +52,24 @@ function HomePage() {
                     </ul>
                 </div>
             </div>
-            <div class="logo">
+            <div className="logo">
                 <img src="../pictures/logos/logo3.jpg" alt="" />
             </div>
 
-            <div class="right_side">
-                <div class="nav_bar">
+            <div className="right_side">
+                <div className="nav_bar">
                     <li>
-                        <a class="nav_bar_link" href="#">Online Menu</a>
+                        <a className="nav_bar_link" href="#">Online Menu</a>
                     </li>
                     <li>
-                        <a class="nav_bar_link" href="#">Reservations</a>
+                        <a className="nav_bar_link" href="#">Reservations</a>
                     </li>
                 </div>
-                <div class="bar">
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-xmark" id="hdcross"></i>
+                <div className="bar">
+                    <i className="fa-solid fa-bars"></i>
+                    <i className="fa-solid fa-xmark" id="hdcross"></i>
                 </div>
-                <div class="nav">
+                <div className="nav">
                     <ul>
                         <a href="#">
                             <li>Home</li>
@@ -89,88 +89,88 @@ function HomePage() {
             </div>
 
 
-                <div class="account">
+                <div className="account">
                     <ul>
                         <a href="#">
                             <li>
-                                <i class="fa-solid fa-house-chimney"></i>
+                                <i className="fa-solid fa-house-chimney"></i>
                             </li>
                         </a>
                         <a href="#">
                             <li>
-                                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+                                <i className="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
                             </li>
                         </a>
-                        <div class="search" id="searchinput2">
+                        <div className="search" id="searchinput2">
                             <input type="search" />
-                            <i class="fa-solid fa-magnifying-glass searchbaricon2"></i>
+                            <i className="fa-solid fa-magnifying-glass searchbaricon2"></i>
                         </div>
                         <a href="#">
                             <li>
-                                <i class="fa-solid fa-user" id="user-lap"></i>
+                                <i className="fa-solid fa-user" id="user-lap"></i>
                             </li>
                         </a>
                     </ul>
                 </div>
         </div>
-    <div class="home">
-        <div class="main_slide">
+    <div className="home">
+        <div className="main_slide">
             <div>
                 <h1>The Experience of <span>328 Loft</span> Right in <br />Livi C</h1>
                 <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
                 
-                <button class="red_btn">Visit Now <i class="fa-solid fa-arrow-right-long"></i></button>
+                <button className="red_btn">Visit Now <i className="fa-solid fa-arrow-right-long"></i></button>
             </div>
             <div>
                 <img src="../images/team-1.jpg" alt="" />
             </div>
         </div>
 
-        <div class="food_items">
-            <div class="item">
+        <div className="food_items">
+            <div className="item">
                 <div>
                     <img src="../images/img2.png" alt="food item" />
                 </div>
                 <h3>Food name</h3>
                 <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
-                <button class="white_btn" >See Menu</button>
+                <button className="white_btn" >See Menu</button>
             </div>
-            <div class="item">
+            <div className="item">
                 <div>
                     <img src="../images/img3.png" alt="food item" />
                 </div>
                 <h3>Food name</h3>
                 <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
-                <button class="white_btn" >See Menu</button>
+                <button className="white_btn" >See Menu</button>
             </div>
-            <div class="item">
+            <div className="item">
                 <div>
                     <img src="../images/img4.png" alt="food item" />
                 </div>
                 <h3>Food name</h3>
                 <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
-                <button class="white_btn" >See Menu</button>
+                <button className="white_btn" >See Menu</button>
             </div>
-            <div class="item">
+            <div className="item">
                 <div>
                     <img src="../images/img5.png" alt="food item" />
                 </div>
                 <h3>Food name</h3>
                 <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
-                <button class="white_btn" >See Menu</button>
+                <button className="white_btn" >See Menu</button>
             </div>
         </div>
 
-        <div class="main_slide2">
-            <div class="foodimg">
+        <div className="main_slide2">
+            <div className="foodimg">
                 <img src="../images/img5.png" alt="" />
             </div>
-            <div class="question">
+            <div className="question">
                 <div>
                     <h2>Why Us?</h2>
                 </div>
                 <div>
-                    <div class="q_ans">
+                    <div className="q_ans">
                         <div>
                             <img src="../images/img6.png" alt="" />
                         </div>
@@ -179,7 +179,7 @@ function HomePage() {
                             <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."</p>
                         </div>
                     </div>
-                    <div class="q_ans">
+                    <div className="q_ans">
                         <div>
                             <img src="../images/img7.png" alt="" />
                         </div>
@@ -188,7 +188,7 @@ function HomePage() {
                             <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."</p>
                         </div>
                     </div>
-                    <div class="q_ans">
+                    <div className="q_ans">
                         <div>
                             <img src="../images/img7.png" alt="" />
                         </div>
@@ -201,53 +201,53 @@ function HomePage() {
             </div>
         </div>
 
-        <div class="main_slide3">
-            <div class="fav_head">
+        <div className="main_slide3">
+            <div className="fav_head">
                 <h3>Our Hottest Items</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo placeat eveniet, est possimus at blanditiis, ipsum expedita sapiente quidem nulla reprehenderit animi fugit repellendus doloremque perspiciatis beatae? Fugit, facilis necessitatibus.</p>
             </div>
-            <div class="fav_food">
-                <div class="item">
+            <div className="fav_food">
+                <div className="item">
                     <div>
                         <img src="../images/img7.png" alt="" />
                     </div>
                     <h3>Food name</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, aspernatur.</p>
-                    <p class="fav_price">$2.90</p>
+                    <p className="fav_price">$2.90</p>
                 </div>
-                <div class="item">
+                <div className="item">
                     <div>
                         <img src="../images/img7.png" alt="" />
                     </div>
                     <h3>Food name</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, aspernatur.</p>
-                    <p class="fav_price">$2.90</p>
+                    <p className="fav_price">$2.90</p>
                 </div>
-                <div class="item">
+                <div className="item">
                     <div>
                         <img src="../images/img7.png" alt="" />
                     </div>
                     <h3>Food name</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, aspernatur.</p>
-                    <p class="fav_price">$2.90</p>
+                    <p className="fav_price">$2.90</p>
                 </div>
-                <div class="item">
+                <div className="item">
                     <div>
                         <img src="../images/img7.png" alt="" />
                     </div>
                     <h3>Food name</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, aspernatur.</p>
-                    <p class="fav_price">$2.90</p>
+                    <p className="fav_price">$2.90</p>
                 </div>
             </div>
-            <div class="dsgn"> </div>
+            <div className="dsgn"> </div>
         </div>
 
-        <div class="main_slide4">
-            <div class="chef_feed">
+        <div className="main_slide4">
+            <div className="chef_feed">
                 <h2>Customer <span style="color: red;">Feedback</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt magni eum exercitationem dolore beatae optio. Assumenda consectetur quaerat quidem?</p>
-                <div class="chef_detail">
+                <div className="chef_detail">
                     <div>
                         <img src="../images/team-2.jpg" />
                     </div>
@@ -256,41 +256,41 @@ function HomePage() {
                         <p>Rrestaurant Owners</p>
                     </div>
                 </div>
-                <div class="chef_vic">
+                <div className="chef_vic">
                     <div>
-                        <i class="fa-solid fa-hand-peace"></i>
+                        <i className="fa-solid fa-hand-peace"></i>
                         <h4>68</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, aliquid.</p>
                     </div>
                     <div>
-                        <i class="fa-solid fa-trophy"></i>
+                        <i className="fa-solid fa-trophy"></i>
                         <h4>956</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, sequi!</p>
                     </div>
                 </div>
             </div>
-            <div class="chef">
+            <div className="chef">
                 <img src="../images/team-4.jpg" />
             </div>
         </div>
 
-        <div class="letter">
-            <div class="letter_head">
+        <div className="letter">
+            <div className="letter_head">
                 <h2>Subscribe <span>Newsletter</span></h2>
             </div>
-            <div class="letter_input">
+            <div className="letter_input">
                 <div>
                     <input type="email" placeholder="Example@example.com" />
                 </div>
-                <button class="red_btn">Subscribe</button>
+                <button className="red_btn">Subscribe</button>
             </div>
         </div>
         
     </div>
 
-    <div class="footer">
-        <div class="footer_1">
-            <div class="logo">
+    <div className="footer">
+        <div className="footer_1">
+            <div className="logo">
                 <img src="../images/official logo text bl.png" alt="" />
             </div>
             <div>
@@ -302,7 +302,7 @@ function HomePage() {
             </div>
         </div>
 
-        <div class="footer_2">
+        <div className="footer_2">
             <img src="../images/official logo text bl.png" alt="" />
             <h2>Powered by <em>Emmaus</em></h2>
         </div>
