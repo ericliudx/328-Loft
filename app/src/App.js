@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./navigation/header.js";
 import HomePage from "./home_page/home_page.js";
 import FoodCard from "./home_page/home_page_components/food_card/food_card.js";
 import FoodCardContainer from "./home_page/home_page_components/food_card_container.js";
@@ -9,9 +10,11 @@ import foodPic from "./images/img7.png";
 function App() {
     return (
         <div className="App">
+            <Header/>
             <FoodCardContainer />
-            {/* <Footer /> */}
             <MenuCardContainer />
+            <Footer/>
+            
         </div>
     );
 }

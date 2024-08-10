@@ -4,9 +4,9 @@ import logo2 from "../images/logos/logo3.jpg";
 
 function Footer() {
 	return (
-		<div class="footer-container">
-			<div class="footer_1">
-				<div class="logo">
+		<div className="footer-container">
+			<div className="footer_1">
+				<div className="logo">
 					<img src={logo1} alt="" />
 				</div>
 				<div>
@@ -18,7 +18,7 @@ function Footer() {
 				</div>
 			</div>
 
-			<div class="footer_2">
+			<div className="footer_2">
 				<img src={logo2} alt="" />
 				<h2>Powered by <em>Emmaus</em></h2>
 			</div>
