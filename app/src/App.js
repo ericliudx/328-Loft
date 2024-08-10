@@ -1,14 +1,19 @@
 import "./App.css";
 import HomePage from "./home_page/home_page.js";
-import FoodCard from "./home_page/food_card.js";
-import FavoriteFoods from "./home_page/favorite_foods.js";
+import FoodCard from "./home_page/home_page_components/food_card/food_card.js";
+import FoodCardContainer from "./home_page/home_page_components/food_card_container.js";
+import Footer from "./navigation/footer.js";
+import MenuCardContainer from "./home_page/home_page_components/menu_card_container.js";
+import foodPic from "./images/img7.png";
 
 function App() {
-  return (
-    <div className="App">
-      <FavoriteFoods />
-    </div>
-  );
+    return (
+        <div className="App">
+            <FoodCardContainer />
+            {/* <Footer /> */}
+            <MenuCardContainer />
+        </div>
+    );
 }
 
 export default App;
