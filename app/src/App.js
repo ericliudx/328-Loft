@@ -6,6 +6,7 @@ import FoodCardContainer from "./home_page/home_page_components/food_card_contai
 import Footer from "./navigation/footer.js";
 import MenuCardContainer from "./home_page/home_page_components/menu_card_container.js";
 import foodPic from "./images/img7.png";
+import Slideshow from "./home_page/home_page_components/slideshow.js";
 
 function App() {
     return (
@@ -13,8 +14,8 @@ function App() {
             <Header/>
             <FoodCardContainer />
             <MenuCardContainer />
+            <Slideshow />
             <Footer/>
-            
         </div>
     );
 }
