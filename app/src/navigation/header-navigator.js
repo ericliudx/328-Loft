@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import "./header-navigator.css";
 
-function HeaderNavigator({title, text, picture}) {
+function HeaderNavigator({title, text, picture, menuVisible}) {
 
     const [showSearch1, setShowSearch1] = useState(false);
     return (
-        <div className="headerbar">
+        <div 
+            className="headerbar"
+            style={{ right: menuVisible ? '0' : '-100%' }} 
+        >
             <div className="account">
                 <ul>
                     <a href="#">

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import "./header.css";
 import logo1 from "../images/logos/logo3.jpg";
 import HeaderNavigator from "./header-navigator.js";
@@ -6,10 +6,24 @@ import HeaderNavigator from "./header-navigator.js";
 function Header({title, text, picture}) {
 
     const [menuVisible, setMenuVisible] = useState(false);
+    const [showXmark, setShowXmark] = useState(false);
+
+    useEffect(() => {
+        let timeoutId;
+        if (menuVisible) {
+            timeoutId = setTimeout(() => {
+                setShowXmark(true);
+            }, 700); // Adjust the timeout duration (in milliseconds) as needed
+        } else {
+            setShowXmark(false);
+        }
+        
+        return () => clearTimeout(timeoutId); // Clean up the timeout if the component unmounts or menuVisible changes
+    }, [menuVisible]);
+
     return (
         <header>
             <div className="header">
-                <HeaderNavigator></HeaderNavigator>
 
                 <div className="logo">
                     <img src={logo1} alt=""/>
@@ -30,51 +44,17 @@ function Header({title, text, picture}) {
                             style={{ opacity: menuVisible ? 0 : 1 }}
                             onClick={() => setMenuVisible(true)}
                             ></i>
-                        <i className="fa-solid fa-xmark" id="hdcross" onClick={() => setMenuVisible(false)}></i>
+                        <i 
+                            className="fa-solid fa-xmark" 
+                            id="hdcross"
+                            style={{ display: showXmark ? 'block' : 'none' }}
+                            onClick={() => setMenuVisible(false)}>
+
+                        </i>
                     </div>
-                    <div className="nav">
-                        <ul>
-                            <a href="#">
-                                <li>Home</li>
-                            </a>
-                            <a href="#">
-                                <li>Online Menu</li>
-                            </a>
-                            <a href="#">
-                                <li>Reservations</li>
-                            </a>
-                            <a href="#">
-                                <li>About</li>
-                            </a>
-                        </ul>
-                    </div>
+                    <HeaderNavigator menuVisible={menuVisible} />
 
                 </div>
-
-
-                    <div className="account">
-                        <ul>
-                            <a href="#">
-                                <li>
-                                    <i className="fa-solid fa-house-chimney"></i>
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li>
-                                    <i className="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
-                                </li>
-                            </a>
-                            <div className="search" id="searchinput2">
-                                <input type="search"/>
-                                <i className="fa-solid fa-magnifying-glass searchbaricon2"></i>
-                            </div>
-                            <a href="#">
-                                <li>
-                                    <i className="fa-solid fa-user" id="user-lap"></i>
-                                </li>
-                            </a>
-                        </ul>
-                    </div>
             </div>
         
         </header>
