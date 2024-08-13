@@ -1,6 +1,9 @@
+import React, { useState } from 'react';
 import "./header-navigator.css";
 
 function HeaderNavigator({title, text, picture}) {
+
+    const [showSearch1, setShowSearch1] = useState(false);
     return (
         <div className="headerbar">
             <div className="account">
@@ -10,15 +13,17 @@ function HeaderNavigator({title, text, picture}) {
                             <i className="fa-solid fa-house-chimney"></i>
                         </li>
                     </a>
-                    <a href="#">
+                    <a href="#" onClick={() => setShowSearch1(!showSearch1)}>
                         <li>
                             <i className="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
                         </li>
                     </a>
-                    <div className="search" id="searchinput1">
-                        <input type="search"/>
-                        <i className="fa-solid fa-magnifying-glass searchbaricon1"></i>
-                    </div>
+                    {showSearch1 && (
+                        <div className="search" id="searchinput1">
+                            <input type="search" />
+                            <i className="fa-solid fa-magnifying-glass searchbaricon1"></i>
+                        </div>
+                    )}
                     <a href="#">
                         <li>
                             <i className="fa-solid fa-user" id="user-mb"></i>

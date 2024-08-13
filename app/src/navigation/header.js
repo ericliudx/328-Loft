@@ -1,8 +1,11 @@
+import React, {useState} from "react";
 import "./header.css";
 import logo1 from "../images/logos/logo3.jpg";
 import HeaderNavigator from "./header-navigator.js";
 
 function Header({title, text, picture}) {
+
+    const [menuVisible, setMenuVisible] = useState(false);
     return (
         <header>
             <div className="header">
@@ -13,7 +16,7 @@ function Header({title, text, picture}) {
                 </div>
 
                 <div className="right_side">
-                    <div className="nav_bar">
+                    <div className="nav_bar" style={{ opacity: menuVisible ? 0 : 1 }}>
                         <li>
                             <a className="nav_bar_link" href="#">Online Menu</a>
                         </li>
@@ -22,8 +25,12 @@ function Header({title, text, picture}) {
                         </li>
                     </div>
                     <div className="bar">
-                        <i className="fa-solid fa-bars"></i>
-                        <i className="fa-solid fa-xmark" id="hdcross"></i>
+                        <i 
+                            className="fa-solid fa-bars" 
+                            style={{ opacity: menuVisible ? 0 : 1 }}
+                            onClick={() => setMenuVisible(true)}
+                            ></i>
+                        <i className="fa-solid fa-xmark" id="hdcross" onClick={() => setMenuVisible(false)}></i>
                     </div>
                     <div className="nav">
                         <ul>

@@ -14,7 +14,7 @@ function App() {
             <Header/>
             <FoodCardContainer />
             <MenuCardContainer />
-            <Slideshow />
+{/*             <Slideshow /> */}
             <Footer/>
         </div>
     );
