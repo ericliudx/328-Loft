@@ -11,6 +11,7 @@
     list-style: none;
     text-decoration: none;
     color:white;
+
 }
 
 .right_side{
@@ -55,6 +56,9 @@
     max-width: 200px;
 
     transition: all 1s;
+    text-decoration: none;
+    color:white;
+
 }
 
 .nav_bar_link:hover{

@@ -42,11 +42,8 @@
     opacity: 0.9
 }
 
-.headerbar .account > ul{
+.icon-list-container{
     justify-content: space-between;
-}
-
-.headerbar .account > ul{
     display: flex;
     align-items:center;
 }
@@ -55,6 +52,7 @@
     height: 100%;
     width: 100%;
     list-style: none;
+    color:white;
 }
 
 .nav-list-container:first-child{
@@ -63,7 +61,7 @@
 
 .button-container{
     line-height: 60px;
-    border-bottom: 1px solid red
+    border-bottom: 1px solid red;
 }
 
 
