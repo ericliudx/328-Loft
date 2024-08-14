@@ -1,0 +1,15 @@
+.header-nav-button{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    padding-left: 16px;
+    border-left: 3px solid transparent;
+}
+
+
+.header-nav-button:hover{
+    color: aquamarine;
+    background: rgb(50, 50, 50);
+    border-left-color: aquamarine;
+    transition: all 0.3s ease;
+  }

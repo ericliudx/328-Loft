@@ -51,69 +51,21 @@
     align-items:center;
 }
 
-.headerbar > .nav > ul{
+.nav-list-container{
     height: 100%;
     width: 100%;
     list-style: none;
 }
 
-.headerbar > .nav > ul > li{
+.nav-list-container:first-child{
+    border-top: 1px solid red;
+}
+
+.button-container{
     line-height: 60px;
     border-bottom: 1px solid red
 }
 
-.headerbar > .nav > ul > li > a{
-    position: relative;
-    display: flex;
-    font-size: 20px;
-    padding-left: 16px;
-    border-left: 3px solid transparent;
-}
-
-
-.headerbar .nav li a:hover {
-    color: aquamarine;
-    background: rgb(50, 50, 50);
-    border-left-color: aquamarine;
-    transition: all 0.3s ease;
-  }
-
-/* bolding the current subheading and completeing the lines*/
-.headerbar .nav > ul > li:first-child {
-    border-top: 1px solid red;
-    font-weight: bold;
-}
-
-.dropdown_menu{
-    position: static;
-    display: none;
-}
-
-.dropdown_menu li{
-    line-height: 30px;
-
-    transition: all 2s;
-}
-
-.dropdown_menu li a{
-    position: relative;
-    display: flex;
-    font-size: 14px;
-    color: aliceblue;
-    margin-left: 40px;
-    border-left: 3px solid transparent;
-
-}
-
-.nav ul li a span{
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 22px;
-
-    transition: all .4s;
-}
 
 @media only screen and (max-width: 768px){
     .headerbar{
@@ -139,19 +91,6 @@
     .nav_bar_link{
         display: none;
     }
-    .headerbar .nav ul{
-        flex-direction: column;
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    .headerbar .nav li{
-        width: 96vw;
-        margin: 10px 0;
-        padding: 15px 30px;
-        font-size: 15px;
-        margin-top: 5px;
-    }
 
     .headerbar .account{
         line-height: 40px;
@@ -161,6 +100,20 @@
 
     .headerbar .account ul{
         justify-content: space-between;
+    }
+
+    .nav-list-container{
+        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .button-container{
+        width: 96vw;
+        margin: 10px 0;
+        padding: 15px 30px;
+        font-size: 15px;
+        margin-top: 5px;
     }
 }
 

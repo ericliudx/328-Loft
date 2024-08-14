@@ -1,0 +1,50 @@
+.header-nav-dropdown-button{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    padding-left: 16px;
+    border-left: 3px solid transparent;
+}
+
+
+.header-nav-dropdown-button:hover{
+    color: aquamarine;
+    background: rgb(50, 50, 50);
+    border-left-color: aquamarine;
+    transition: all 0.3s ease;
+  }
+
+.dropdown_menu{
+    position: static;
+    display: none;
+}
+
+.dropdown_menu li{
+    line-height: 30px;
+
+    transition: all 2s;
+}
+
+.dropdown_menu li a{
+    position: relative;
+    display: flex;
+    font-size: 14px;
+    color: aliceblue;
+    margin-left: 40px;
+    border-left: 3px solid transparent;
+
+}
+
+.fa-caret-down{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+
+    transition: all .4s;
+}
+
+.rotated {
+    transform: translateY(-50%) rotate(-180deg);
+  }
