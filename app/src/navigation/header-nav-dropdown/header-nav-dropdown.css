@@ -8,6 +8,8 @@
     list-style: none;
     text-decoration: none;
     color:white;
+
+    border-bottom: 1px solid red;
 }
 
 
@@ -25,8 +27,12 @@
 
 .dropdown_menu li{
     line-height: 30px;
-
+    list-style: none;
     transition: all 2s;
+}
+
+.dropdown_menu li:not(:first-child) a {
+    border-top: 1px solid red;
 }
 
 .dropdown_menu li a{
@@ -34,9 +40,18 @@
     display: flex;
     font-size: 14px;
     color: aliceblue;
-    margin-left: 40px;
     border-left: 3px solid transparent;
+    text-decoration: none;
 
+}
+
+.dropdown_menu li a:hover{
+    color: aquamarine;
+    background: rgb(50, 50, 50);
+    border-left-color: aquamarine;
+    transition: all 0.3s ease;
+
+    
 }
 
 .fa-caret-down{

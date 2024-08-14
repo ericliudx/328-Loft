@@ -1,11 +1,8 @@
-.footer{
+.footer-container{
     padding: 60px 0;
     border-top: 2px solid rgb(252, 184, 107);
     background-color: rgb(252, 222, 195);
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
 }
 
 .footer_1 .logo img{
@@ -19,19 +16,6 @@
     color: rgb(255, 137, 2);
 }
 
-.footer_2{
-    text-align: center;
-    cursor: pointer;
-}
-
-.footer_2 h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.footer_2 img{
-    width: 50px;
-    margin-bottom: 15px;
-}
 @media only screen and (max-width: 768px){
     .footer{
         flex-direction: column;
