@@ -1,0 +1,43 @@
+.navbar-container {
+    overflow: hidden;
+    background-color: #aeaeae;
+    height: 50px;
+}
+
+.icon {
+    color: white;
+    height: 30px;
+    width: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.navbar-container .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-container {
+        min-height: 50px;
+        height: auto;
+    }
+
+    .navbar-container .icon {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .navbar-container .button-container {
+        display: block;
+    }
+}
