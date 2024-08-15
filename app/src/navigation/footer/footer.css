@@ -2,18 +2,31 @@
     padding: 60px 0;
     border-top: 2px solid rgb(252, 184, 107);
     background-color: rgb(252, 222, 195);
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
 }
 
-.footer_1 .logo img{
-    width: 200px;
+.logo-container{
+    width: 100%;
+    max-width: 200px;
+    height: auto; 
+    overflow: hidden;
+
+    padding: 20px 60px 20px 60px;
 }
 
+.logo-img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.text-container{
+    background-color: red;
+    display: flex;
+}
 .footer_1 p{
-    cursor: pointer;
-    font-size: 14px;
-    padding: 2px;
-    color: rgb(255, 137, 2);
 }
 
 @media only screen and (max-width: 768px){

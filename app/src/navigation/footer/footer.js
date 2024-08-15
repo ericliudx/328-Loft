@@ -4,20 +4,23 @@ import logo1 from '../../images/logos/a.jpg';
 function Footer() {
 	return (
 		<div className="footer-container">
-			<div className="footer_1">
-				<div className="logo">
-					<img src={logo1} alt="" />
-				</div>
-				<div>
-					<address>
-						<p>Email: ericliudx@gmail.com</p>
-						<p>Youtube: none</p>
-						<p>Livingston Apartments C, Room 328<br />Rutgers New Brunswick</p>
-					</address>
+			<div className="logo-container">
+				<img className="logo-img" src={logo1} alt="" />
+			</div>
+			<div className="text-container first">
+
+				<p>Email: ericliudx@gmail.com</p>
+				<p>Youtube: none</p>
+				<p>Livingston Apartments C, Room 328<br />Rutgers New Brunswick</p>
+
+			</div>
+			<div className="text-container second">
+				<div className="icon-container">
+					<div className="fa fa-instagram">
+						
+					</div>
 				</div>
 			</div>
-
-
 		</div>
 	);
 }
