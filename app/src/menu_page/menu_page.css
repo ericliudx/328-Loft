@@ -1,23 +1,36 @@
 .menu-page {
     width: 100%;
     border: 0;
+    background-color: #FDF9ED;
+    color: #260307;
 }
 
 .menu-page-title {
     width: 100%;
     text-align: center;
     font-size: 10em;
+    font-weight: bold;
 }
 
 .menu-card-container {
-    width: 60%;
-    margin: 1% auto;
+    width: 100%;
+    margin: auto;
 
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    row-gap: 20px;
+    /* row-gap: 50px; */
     column-gap: 0;
+}
 
-    background-color: blue;
+.menu-page-light {
+    width: 60%;
+    padding: 3% 20%;
+    background-color: #FDF9ED;
+}
+
+.menu-page-dark {
+    width: 60%;
+    padding: 3% 20%;
+    background-color: #F9EDC8;
 }
