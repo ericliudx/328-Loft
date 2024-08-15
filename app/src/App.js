@@ -7,7 +7,8 @@ import Footer from "./navigation/footer/footer.js";
 // import MenuCardContainer from "./home_page/home_page_components/menu_card_container.js";
 // import foodPic from "./images/img7.png";
 import Slideshow from "./home_page/home_page_components/slideshow.js";
-import Navbar from "./navigation/navbar.js" 
+import Navbar from "./navigation/nav stuff/navbar.js";
+import MenuPage from "./menu_page/menu_page.js";
 
 function App() {
     return (
@@ -23,13 +24,13 @@ function App() {
     //   </BrowserRouter>
         
         <div className="App">
-            <Header/>
+            {/* <Header/> */}
             {/* <FoodCardContainer /> */}
             {/* <MenuCardContainer /> */}
             {/* <Footer/> */}
             {/* <Navbar /> */}
             {/* <Slideshow /> */}
-
+            <MenuPage />
         </div>
     );
 }
