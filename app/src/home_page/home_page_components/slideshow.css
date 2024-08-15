@@ -26,6 +26,8 @@
     text-align: center;
     border: 1px #666 solid;
     margin: 0;
+    position: relative;
+    bottom: 5px;
 }
   
 .indicator.active {

@@ -6,8 +6,8 @@ import "./App.css";
 // import Footer from "./navigation/footer.js";
 // import MenuCardContainer from "./home_page/home_page_components/menu_card_container.js";
 // import foodPic from "./images/img7.png";
-// import Slideshow from "./home_page/home_page_components/slideshow.js";
-import Navbar from "./navigation/navbar.js"
+import Slideshow from "./home_page/home_page_components/slideshow.js";
+import Navbar from "./navigation/navbar.js" 
 
 function App() {
     return (
@@ -26,9 +26,10 @@ function App() {
             {/* <Header/> */}
             {/* <FoodCardContainer /> */}
             {/* <MenuCardContainer /> */}
-            {/* <Slideshow /> */}
             {/* <Footer/> */}
-            <Navbar />
+            {/* <Navbar /> */}
+            {/* <Slideshow /> */}
+
         </div>
     );
 }
