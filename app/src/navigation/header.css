@@ -7,6 +7,10 @@
     background-color: rgb(0, 0, 0);
     border-bottom: 2px solid rgb(255, 255, 255);
     box-shadow: 0 2px 20px rgb(253, 124, 124);
+
+    list-style: none;
+    text-decoration: none;
+    color:white;
 }
 
 .right_side{
@@ -51,6 +55,9 @@
     max-width: 200px;
 
     transition: all 1s;
+    text-decoration: none;
+    color:white;
+
 }
 
 .nav_bar_link:hover{
