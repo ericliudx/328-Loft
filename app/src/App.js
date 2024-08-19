@@ -24,13 +24,15 @@ function App() {
     //   </BrowserRouter>
         
         <div className="App">
-            {/* <Header/> */}
+            <Header/>
             {/* <FoodCardContainer /> */}
             {/* <MenuCardContainer /> */}
-            {/* <Footer/> */}
             {/* <Navbar /> */}
             {/* <Slideshow /> */}
             <MenuPage />
+
+            <Footer/>
+
         </div>
     );
 }

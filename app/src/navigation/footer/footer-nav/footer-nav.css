@@ -1,0 +1,23 @@
+.footer-nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.footer-nav-bar{
+    color: white;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 50;
+    padding: 40px;
+}
+
+.footer-nav-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-decoration: underline;
+}
