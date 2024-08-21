@@ -1,0 +1,13 @@
+.menu-of-the-day {
+    padding-top: 5%;
+}
+
+.menu-of-the-day-title {
+    text-align: center;
+    font-size: 4em;
+}
+
+.bar{
+    height: 3px;
+    background-color: black;
+}

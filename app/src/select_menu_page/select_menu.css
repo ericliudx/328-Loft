@@ -1,0 +1,24 @@
+.select-menu {
+    padding-top: 5%;
+}
+
+.select-menu-title {
+    text-align: center;
+    font-size: 4em;
+}
+
+.select-menu-menus-container {
+    width: 70%;
+    margin-top: 5%;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.bar{
+    height: 3px;
+    background-color: black;
+}

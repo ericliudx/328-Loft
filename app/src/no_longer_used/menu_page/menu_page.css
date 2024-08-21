@@ -24,13 +24,13 @@
 }
 
 .menu-page-light {
-    width: 60%;
-    padding: 3% 20%;
+    width: 100%;
+    padding: 0;
     background-color: #FDF9ED;
 }
 
 .menu-page-dark {
-    width: 60%;
-    padding: 3% 20%;
+    width: 100%;
+    padding: 0;
     background-color: #F9EDC8;
 }

@@ -1,0 +1,55 @@
+.menu-card {
+    position: relative;
+    width: 30%;
+
+    text-align: center;
+    box-sizing: border-box;
+
+    border-style: solid;
+    border-color: #714955;
+    border-width: 5px;
+    box-shadow: 15px 15px #573841;
+    background-color: #7B886B;
+    transition: box-shadow 0.1s ease-out;
+}
+
+.menu-card:hover {
+    box-shadow: 20px 20px #573841;
+}
+
+.menu-card-image {
+    height: 100%;
+    width: 100%;
+    user-select: none;
+}
+
+.menu-card-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2.3em;
+    font-weight: 550;
+
+
+    padding: 3px 20px;
+    background: radial-gradient(
+        ellipse at center, 
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(255, 255, 255, 0.8) 10%,
+        rgba(255, 255, 255, 0.8) 20%,
+        rgba(255, 255, 255, 0.7) 30%,
+        rgba(255, 255, 255, 0.6) 40%,
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0.35) 60%,
+        rgba(255, 255, 255, 0) 73%
+    );
+    /* background: 
+        /* linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) 0 0 / 100% 50%,  Top */
+        /* linear-gradient(to left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) 0 100% / 100% 50%;  Bottom */
+        /* linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) 0 0 / 100% 100%,  Left */
+        /* linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) 100% 0 / 0% 50%;  Right */
+    /* background-repeat: no-repeat; */
+
+}
