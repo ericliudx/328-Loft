@@ -1,0 +1,19 @@
+.food-page-description{
+  font-family: "Abel";
+  margin-left:20px;
+  margin-top:150px;
+  font-size: 14px;
+  margin-bottom:150px;
+}
+.food-page-line{
+  margin:2px;
+}
+.food-page-image{
+  height: 20em;
+  width: auto;
+}
+.foodpage{
+  background-color: #FDF9ED;
+  height:100%;
+}
+

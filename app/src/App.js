@@ -9,8 +9,7 @@ import Footer from "./navigation/footer/footer.js";
 // import foodPic from "./images/img7.png";
 import SelectMenu from "./select_menu_page/select_menu.js";
 import MenuOfTheDay from "./menu_of_the_day/menu_of_the_day.js";
-import HomePage from "./home_page/home_page";
-
+import FoodPage from "./food_page/food_page"
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -27,11 +26,14 @@ function App() {
     //   </BrowserRouter>
         
         <div className="App">
-            <HomePage/>
+            <Header/>
             {/* <FoodCardContainer /> */}
             {/* <MenuCardContainer /> */}
             {/* <Navbar /> */}
             {/* <Slideshow /> */}
+            
+
+            <Footer/>
 
         </div>
     );
