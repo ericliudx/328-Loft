@@ -10,7 +10,7 @@ import Footer from "./navigation/footer/footer.js";
 import Slideshow from "./no_longer_used/home_page/home_page_components/slideshow.js";
 import SelectMenu from "./select_menu_page/select_menu.js";
 import MenuOfTheDay from "./menu_of_the_day/menu_of_the_day.js";
-
+import FoodPage from "./food_page/food_page"
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -27,15 +27,13 @@ function App() {
     //   </BrowserRouter>
         
         <div className="App">
-            <Header/>
+            {/* <Header/> */}
             {/* <FoodCardContainer /> */}
             {/* <MenuCardContainer /> */}
             {/* <Navbar /> */}
             {/* <Slideshow /> */}
-            
-
-            <Footer/>
-
+            {/* <Footer/> */}
+            <FoodPage/>
         </div>
     );
 }
