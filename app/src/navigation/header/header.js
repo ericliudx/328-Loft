@@ -38,14 +38,14 @@ function Header({title, text, picture}) {
                             <a className="nav_bar_link" href="#">Reservations</a>
                         </li>
                     </div>
-                    <div className="bar">
+                    <div className="bar-container">
                         <i 
-                            className="fa-solid fa-bars" 
+                            className="fa-solid fa-bars headerbar-bars" 
                             style={{ opacity: menuVisible ? 0 : 1 }}
                             onClick={() => setMenuVisible(true)}
                             ></i>
                         <i 
-                            className="fa-solid fa-xmark" 
+                            className="fa-solid fa-xmark headerbar-x" 
                             id="hdcross"
                             style={{ display: showXmark ? 'block' : 'none' }}
                             onClick={() => setMenuVisible(false)}>
