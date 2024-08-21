@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./header.css";
-import logo1 from "../images/logos/logo3.jpg";
+import logo1 from "../../images/logos/logo2.jpg";
 import HeaderNavigator from "./header-nav.js";
 
 function Header({title, text, picture}) {
