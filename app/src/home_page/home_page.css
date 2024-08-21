@@ -1,0 +1,9 @@
+.home-page-1-container{
+    display: flex;  
+    justify-content: center;
+}
+
+.home-page-1-img{
+    max-width: 80vh;
+    height: auto;
+}

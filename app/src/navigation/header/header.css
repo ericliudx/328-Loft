@@ -31,7 +31,10 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
+}
+
+.bar-container i:hover{
+    color: rgb(253, 57, 8);
 }
 
 .headerbar-x{
@@ -76,10 +79,6 @@
     color:aliceblue;
     border-color: aliceblue;
     background-color: lavender
-}
-
-.bar i:hover{
-    color: rgb(253, 57, 8);
 }
 
 .search{
