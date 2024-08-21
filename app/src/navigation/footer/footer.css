@@ -1,84 +1,75 @@
 .footer-container{
-    padding: 60px 0;
-    border-top: 2px solid rgb(252, 184, 107);
-    background-color: rgb(252, 222, 195);
     display: flex;
-    justify-content: space-between;
-    height: 20vh;
+    flex-direction: column;
 }
 
-.logo-container{
+
+.top-footer-container{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    border-top: 2px solid rgb(252, 184, 107);
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    gap:40px;
+
+    flex-wrap: wrap;
+}
+
+.footer-logo-container{
     width: 100%;
-    max-width: 200px;
+    max-width: 400px;
     height: auto; 
     overflow: hidden;
-
-    padding: 20px 60px 20px 60px;
 }
 
-.logo-img{
+.footer-logo-img{
     height: auto;
     max-width: 100%;
     display: block;
 }
 
-.text-container{
-    background-color: red;
+.connect-container{
     display: flex;
-}
-.footer_1 p{
+    flex-direction: column;
+    justify-content: center;
 }
 
+.connect-title{
+    font-size: 35px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+
+.footer-icon-container{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.bottom-container{
+    color: rgb(180, 180, 180);
+    background-color: black;
+    font-size: 10px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rights{
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+    text-transform: none;
+}
 @media only screen and (max-width: 768px){
-    .footer{
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .footer .footer_1 div{
-        margin: 0;
-    }
-
-    .footer div{
-        margin-bottom: 40px;
-    }
-
-    .footer .footer_1, .footer .footer_2{
-        text-align: center;
-        margin: 5px 0;
-    }
-
-    .footer .footer_1 div{
-        margin: 0;
-    }
-
-    .footer div{
-        margin-bottom: 40px;
-    }
 }
 
 @media only screen and (max-width: 550px){
-    .footer div:last-child{
-        margin-bottom: 0;
-    }
-
-    .footer{
-        padding-bottom: 25px;
-    }
-
-    .footer_2 h2{
-        font-size: 20px;
-    }
-
-    .footer div:last-child{
-        margin-bottom: 0;
-    }
-
-    .footer{
-        padding: 25px;
-    }
-
-    .footer_2 h2{
-        font-size: 20px;
+    .top-footer-container{
     }
 }

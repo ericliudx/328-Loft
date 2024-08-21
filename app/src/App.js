@@ -27,15 +27,25 @@ function App() {
     //   </BrowserRouter>
         
         <div className="App">
+<<<<<<< HEAD
             <MenuOfTheDay />
             {/* <SelectMenu /> */}
             {/* <Header/> */}
+=======
+            <Header/>
+>>>>>>> refs/remotes/origin/main
             {/* <FoodCardContainer /> */}
             {/* <MenuCardContainer /> */}
-            {/* <Footer/> */}
             {/* <Navbar /> */}
             {/* <Slideshow /> */}
+<<<<<<< HEAD
             {/* <MenuPage /> */}
+=======
+            <MenuPage />
+
+            <Footer/>
+
+>>>>>>> refs/remotes/origin/main
         </div>
     );
 }

@@ -1,0 +1,20 @@
+.footer-icon{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    border: 1px solid white;
+}
+
+.footer-icon:hover{
+    background: white;
+    color: black;
+    transition: all 0.5s;
+}
+
+.media{
+    font-size: 1.5em;
+}
