@@ -32,7 +32,7 @@ function Header({title, text, picture}) {
                 <div className="right_side">
                     <div className="nav_bar" style={{ opacity: menuVisible ? 0 : 1 }}>
                         <li>
-                            <a className="nav_bar_link" href="#">Online Menu</a>
+                            <a className="nav_bar_link" href="/food-page">Online Menu</a>
                         </li>
                         <li>
                             <a className="nav_bar_link" href="#">Reservations</a>
