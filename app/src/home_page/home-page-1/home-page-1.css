@@ -1,0 +1,12 @@
+.home-page-1-container{
+    display: flex;  
+    justify-content: center;
+    background-color: black;
+}
+
+.home-page-1-img{
+    max-width: 90vh;
+    height: auto;
+    transition: transform .3s ease; 
+}
+

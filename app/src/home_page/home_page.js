@@ -5,16 +5,17 @@ import img2 from "../images/img1.png";
 import img3 from "../images/about-4.jpg";
 import img4 from "../images/about-4.jpg";
 import img5 from "../images/about-4.jpg";
+import img6 from "../images/about-4.jpg";
 import Header from "../navigation/header/header";
+import HomePage1 from "./home-page-1/home-page-1";
+import HomePageMenu from "./home-page-menu/home-page-menu";
 import Footer from "../navigation/footer/footer";
 
 function HomePage() {
     return (
         <div className="home-page-container">
             <Header/>
-            <div className="home-page-1-container">
-                <img className="home-page-1-img" src={img1}></img>
-            </div>
+            <HomePage1 image = {img1}/>
             <div className="home-page-2-container">
                 <img className="home-page-2-img" src={img2}></img>
                 <div className="home-page-2-text-container">
@@ -50,13 +51,11 @@ function HomePage() {
                         </a>
                         <div className="home-page-3-img-text">This is Menu Item 3</div>
                     </div>
-
-
-                    
                 </div>
-                    
-                
             </div>
+            
+            <HomePageMenu image = {img5}/>
+
             <Footer/>
         </div>
     );
