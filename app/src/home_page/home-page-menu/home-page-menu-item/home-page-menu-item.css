@@ -1,3 +1,8 @@
+.home-page-menu-left-item{
+    margin-top: 5vh;
+    max-width: 30vh;
+}
+
 .home-page-menu-left-item-title{
     font-size: 1.5em;
 
@@ -6,3 +11,4 @@
 .home-page-menu-left-item-body{
     font-size: .8em;
 }
+

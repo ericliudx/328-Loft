@@ -3,12 +3,14 @@
     justify-content: space-between;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .home-page-menu-left{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .home-page-menu-title{
@@ -32,12 +34,32 @@
     margin-right: 50px;
 }
 
+.home-page-menu-button-container{
+    display:flex;
+    justify-content: center;
+}
+
 .home-page-menu-view-full-menu{
-    max-width: 40px;
+    margin-top: 40px;
+    margin-right: 50px;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1.5em;
+
+    text-transform: capitalize;
+}
+
+.home-page-menu-view-full-menu:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
 }
 
 .home-page-menu-right{
     position: relative;
-    max-width: 600px;
+    width: 500px;
     height: 100%;
+    padding-bottom: 50px;
 }
