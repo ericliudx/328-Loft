@@ -20,14 +20,14 @@ function HomePageMenu({image}) {
                 </div>
                 <div className="home-page-menu-items-column-container">
                     <div className="home-page-menu-items-column">
-                        <HomePageMenuItem title="Dog Meat" body="Yummmmmmmmmmmmmmmmy so so yummy. Harvested fresh from neighbor's dog."/>
-                        <HomePageMenuItem title="Dog Meat" body="Yummmmmmmmmmmmmmmmy so so yummy. Harvested fresh from neighbor's dog."/>
-                        <HomePageMenuItem title="Dog Meat" body="Yummmmmmmmmmmmmmmmy so so yummy. Harvested fresh from neighbor's dog."/>
+                        <HomePageMenuItem title="Cold Cucumber Salad" body="Chopped Cucumbers tossed in a Chinese dressing mix."/>
+                        <HomePageMenuItem title="Seafood Pancake" body="Crispy seafood pancake topped with squid, shrimp and green onions."/>
+                        <HomePageMenuItem title="Salt and Pepper Fish" body="Chinese slow-braised pork belly."/>
                     </div>
                     <div className="home-page-menu-items-column right-column">
-                        <HomePageMenuItem title="Dog Meat" body="Yummmmmmmmmmmmmmmmy so so yummy. Harvested fresh from neighbor's dog."/>
-                        <HomePageMenuItem title="Dog Meat" body="Yummmmmmmmmmmmmmmmy so so yummy. Harvested fresh from neighbor's dog."/>
-                        <HomePageMenuItem title="Dog Meat" body="Yummmmmmmmmmmmmmmmy so so yummy. Harvested fresh from neighbor's dog."/>
+                        <HomePageMenuItem title="Braised Pork Belly" body="A spicy Korean stew filled with spam, sausage, ramen, and enoki mushrooms."/>
+                        <HomePageMenuItem title="Korean Army Stew" body="Chinese fried fish tossed in sichuan chilis and chili peppers."/>
+                        <HomePageMenuItem title="Beef Bulgogi" body="Thinly-sliced marinated beef."/>
                     </div>
                 </div>
 

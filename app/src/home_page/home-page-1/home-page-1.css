@@ -1,12 +1,14 @@
 .home-page-1-container{
     display: flex;  
     justify-content: center;
-    background-color: black;
+    background-color: white;
 }
 
 .home-page-1-img{
-    max-width: 90vh;
+    max-width: 110vh;
     height: auto;
     transition: transform .3s ease; 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 

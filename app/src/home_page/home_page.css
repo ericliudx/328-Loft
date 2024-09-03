@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-around;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 .home-page-2-img{
-    max-width: 80vh;
+    max-width: 55vh;
     height: auto;
-    transition: transform .3s ease
+    transition: transform .3s ease;
+    padding-bottom: 10vh;
 }
 
 .home-page-2-text-container{
@@ -32,12 +34,16 @@
 .home-page-3-container{
     display: flex;
     flex-direction: column;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    flex-wrap: flex;
 }
 
 .home-page-3-title{
     font-size: 3em;
+    font-family: "Poppins";
+    padding-left: 10vh;
+    margin-bottom: 10vh;
 }
 
 .home-page-3-menu-imgs{

@@ -1,0 +1,46 @@
+.home-page-meet-chefs-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.home-page-chefs-picture{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10vh;
+    max-width: 80vh;
+}
+
+.home-page-chefs-text{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 10vh;
+    width: 70vh;
+}
+
+.home-page-chefs-title{
+    color: black;
+    font-size: 2.5em;
+}
+
+.home-page-chefs-body{
+    color: black;
+}
+
+.home-page-chefs-button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 25vh;
+    padding: 1vh;
+}
+
+.home-page-chefs-button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+}
